@@ -8,7 +8,7 @@ This project is a lightweight Windows program that automatically mutes audio ses
 - Works for dynamically created audio sessions (e.g., when starting a screen share or launching an app)
 - Runs in the background with minimal CPU and memory usage
 - Configurable via config.json
-- Tested on Windows 11
+- Tested on Windows 10/11
 - Lightweight and suitable for autostart
 
 ## Motivation
@@ -64,7 +64,7 @@ This loop ensures that even sessions created dynamically (e.g., launching a new 
 
 ## Known Limitations
 
-- Tested on Windows 11 only
+- Tested on Windows 10/11 only
 - Can be scheduled only using Task Scheduler
 - Audio muting is one-way; the program does not restore audio
 - Behavior may vary with future Windows or application updates
