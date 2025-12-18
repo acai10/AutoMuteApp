@@ -1,5 +1,6 @@
 # Compiler / Build
 *.exe
+!AutoMuteApp.exe
 *.obj
 *.o
 *.dll
