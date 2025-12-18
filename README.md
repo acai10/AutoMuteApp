@@ -22,7 +22,7 @@ The program periodically checks all audio sessions and enforces mute on matching
 
 ## Installation
 
-1. Download this repository
+1. Download this repository as zip and unpack.
 
 2. Optional: Compile the program (gcc - gnu compiler collection nessecary or use the pre-compiled AutoMuteApp version in this repository):
    `gcc src/*.c -Iinclude -lole32 -luuid -lpropsys -lpsapi -mwindows -o AutoMuteApp.exe`
