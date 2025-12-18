@@ -24,11 +24,12 @@ The program periodically checks all audio sessions and enforces mute on matching
 
 1. Download this repository
 
-2. Compile the program: (gcc - gnu compiler collection nessecary or use the pre-compiled AutoMuteApp version in this repository)
+2. Optional: Compile the program: (gcc - gnu compiler collection nessecary or use the pre-compiled AutoMuteApp version in this repository)
    gcc src/*.c -Iinclude -lole32 -luuid -lpropsys -lpsapi -mwindows -o AutoMuteApp.exe
 
 3. Place config.json in the same folder as the executable.
-4. Optional: Add the program shortcut to Autostart to run at login. For this press **Win + R** and then type `shell:startup` and put your shortcut in there.
+4. Edit config.json and place your preferences in the required fields (the program is case sensitive and only needs as many words as necessary to distinguish it from other devices, so not the whole name is required).
+5. Optional: Add the program shortcut to Autostart to run at login. For this press **Win + R** and then type `shell:startup` and put your shortcut in there.
 
 ## Configuration
 
