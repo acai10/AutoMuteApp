@@ -96,7 +96,7 @@ void scan_devices_and_mute(void)
         &IID_IMMDeviceEnumerator, (void**)&e);
 
     IMMDeviceEnumerator_EnumAudioEndpoints(
-        e, eAll, DEVICE_STATE_ACTIVE, &c);
+        e, eRender, DEVICE_STATE_ACTIVE, &c);
 
     UINT n;
     IMMDeviceCollection_GetCount(c, &n);

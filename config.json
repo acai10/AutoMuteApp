@@ -3,7 +3,10 @@
   "target_application": "Discord.exe",
   "devices": [
     {
-      "name_contains": "Aux"
+      "name_contains": "SteelSeries Sonar - Microphone"
+    },
+    {
+      "name_contains": "Arctis 7P+"
     }
   ]
 }
