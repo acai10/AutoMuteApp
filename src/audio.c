@@ -30,7 +30,7 @@ static BOOL device_matches(IMMDevice* dev)
     return match;
 }
 
-static void mute_discord_on_device(IMMDevice* dev)
+static void mute_playback_on_device(IMMDevice* dev)
 {
     IAudioSessionManager2* mgr;
     IAudioSessionEnumerator* en;
@@ -106,7 +106,7 @@ void scan_devices_and_mute(void)
         IMMDevice* d;
         IMMDeviceCollection_Item(c, i, &d);
         if (device_matches(d))
-            mute_discord_on_device(d);
+            mute_playback_on_device(d);
         IMMDevice_Release(d);
     }
 
