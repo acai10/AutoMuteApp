@@ -23,7 +23,7 @@ The program periodically checks all audio sessions and enforces mute on matching
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/<your-username>/auto-mute-audio-windows.git
+   git clone <this-repository>
 
 2. Compile the program:
    gcc src/*.c -Iinclude -lole32 -luuid -lpropsys -lpsapi -mwindows -o AutoMuteApp.exe
