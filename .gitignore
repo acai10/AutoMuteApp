@@ -1,0 +1,21 @@
+# Compiler / Build
+*.exe
+*.obj
+*.o
+*.dll
+*.pdb
+
+# Visual Studio
+*.vcxproj.user
+*.suo
+*.user
+*.ipch
+*.ncb
+
+# sensitive files
+*.json
+!config.json
+
+# Backup / temporary
+*~
+*.tmp
