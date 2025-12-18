@@ -28,7 +28,7 @@ The program periodically checks all audio sessions and enforces mute on matching
    gcc src/*.c -Iinclude -lole32 -luuid -lpropsys -lpsapi -mwindows -o AutoMuteApp.exe
 
 3. Place config.json in the same folder as the executable.
-4. Optional: Add the program to Autostart to run at login.
+4. Optional: Add the program shortcut/link to Autostart to run at login.
 
 ## Configuration
 
