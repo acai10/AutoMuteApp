@@ -53,6 +53,11 @@ Example config.json:
 
 You can replace "Discord.exe" with any other application name, for example "Zoom.exe" or "Teams.exe". The program will mute audio sessions for the specified devices only for that application.
 
+## How to fix/reverse if problems occured
+1. Make sure the **AutoMuteApp.exe** is **not** running anymore in the background, using the task manager to eventually close the background task.
+2. Press **Win + R** and search for `sndvol`.
+3. Look for your devices and unmute the corresponding tasks.
+
 ## How it Works
 
 1. On start, the program reads config.json.
